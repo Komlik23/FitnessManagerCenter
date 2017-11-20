@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FitnessCenterService.FitnessCenterService">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAASAgAABAIBAACgIgAQBABEEAEAARQEBCBAQ=</HashCode>
+      <FileName>FitnessCenterService.asmx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Models.FitnessCenterEntities">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAICEAAAAQEAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\FitnessCenterDbContext.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Models.Client">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAoAAAAAQAAAAAAAAAAAAAAgAAAAg=</HashCode>
+      <FileName>Models\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Models.Exercis">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAACAABA=</HashCode>
+      <FileName>Models\Exercis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Models.ExerciseType">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAiAEAAAAEAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\ExerciseType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Models.SSO">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAIAAAAgAQAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\SSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Models.User">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAACAAAAAAIAEAAAgQAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Models.Workout">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAAAAAAAAAAgAEAAAgAAAAAABABAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Workout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Utils.JsonUtility">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEEAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\JsonUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Utils.Settings">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAACABAAAAAgAAAA=</HashCode>
+      <FileName>Utils\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnessCenterService.Utils.SSOUtility">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\SSOUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2a03f04414ee466eac0ef79bb1922d4b" Name="Diagram1">
+        <EntityTypeShape EntityType="FitnessCenterModelContext.Client" Width="1.5" PointX="4.875" PointY="6" />
+        <EntityTypeShape EntityType="FitnessCenterModelContext.Exercis" Width="1.5" PointX="6.75" PointY="2.625" />
+        <EntityTypeShape EntityType="FitnessCenterModelContext.ExerciseType" Width="1.5" PointX="7.25" PointY="6" />
+        <EntityTypeShape EntityType="FitnessCenterModelContext.SSO" Width="1.5" PointX="2.5" PointY="5.75" />
+        <EntityTypeShape EntityType="FitnessCenterModelContext.User" Width="1.5" PointX="2.25" PointY="2.25" />
+        <EntityTypeShape EntityType="FitnessCenterModelContext.Workout" Width="1.5" PointX="4.5" PointY="2.5" />
+        <AssociationConnector Association="FitnessCenterModelContext.FK_ClientId" />
+        <AssociationConnector Association="FitnessCenterModelContext.FK_ExerciseTypeId" />
+        <AssociationConnector Association="FitnessCenterModelContext.FK_WorkoutId" />
+        <AssociationConnector Association="FitnessCenterModelContext.FK_UserId_FK" />
+        <AssociationConnector Association="FitnessCenterModelContext.FK_UserId" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
